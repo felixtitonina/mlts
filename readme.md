@@ -35,3 +35,11 @@ openssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out c
 CA: ca.key e ca.crt
 Servidor: server.key e server.crt
 Cliente: client.key e client.crt
+
+
+iniciar server 
+node server 
+
+iniciar cliente
+
+node client
